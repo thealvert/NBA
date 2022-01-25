@@ -44,3 +44,18 @@ div{
     text-align: center;
     padding: 10px;
 }
+div{
+    background-color: rgb(201, 8, 42);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+#Kobe {
+    float: right;
+    width: 575px;
+    height: 688px;
+    border: 16px solid purple;
+    border-left: 17px solid purple;
+    border-right: purple 15px solid;
+}
