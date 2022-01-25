@@ -1,0 +1,47 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: rgb(8, 8, 59);
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+li {
+    float: left;
+    border-right: 1px solid rgb(8, 8, 59);
+
+}
+li a {
+    display:  block;
+    color: rgb(129, 129, 129);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+li a:hover {
+    color: white;
+}
+.active{
+    color: rgb(218, 218, 202);
+    margin-top: 10px;
+}
+
+.logo:hover {
+    background-color: rgb(8, 8, 59);
+}
+.logo {
+    border-radius: 7px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+}
+.nav {
+    margin-top: 10px;
+}
+div{
+    background-color: rgb(201, 8, 42);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
