@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-    <link rel="stylesheet" href="../Style/StyleTeams.css"> 
+    <link rel="stylesheet" href="../Style/StylePlayers.css"> 
+    <link rel="icon" href="../Imagenes/MichaelLogoNBA2.png">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,107 +9,15 @@
         <title>NBA</title>
     </head>
     <style>
-        .Players {
-            width: 300px;
-            height: 219px;
-        }
-
-        #KD {
-            margin: 40px;
-            background-image: url("../Imagenes/LogosTeams/Nets.png");
-            border: solid 10px white;
-            border-top: black 10px solid;
-            border-left: black solid 10px;
-            border-radius: 10px;
-            background-color: black;
-        }
         
-        #Giannis {
-            margin: 40px;
-            background-image: url(../Imagenes/LogosTeams/bucks.png);
-            border: #EEE1C6 solid 10px ;
-            border-top: #00471B  10px solid;
-            border-left:  #00471B solid 10px;
-            border-radius: 10px;
-            background-color: #00471B;
-        }
-
-        #Curry {
-            margin: 40px;
-            background-image: url(../Imagenes/LogosTeams/warriors.png);
-            border: #1D428A solid 10px ;
-            border-top:  #FFC72C 10px solid;
-            border-left: #FFC72C solid 10px;
-            border-radius: 10px;
-            background-color: #FFC72C;
-        }
-
-        #Lebron {
-            margin: 40px;
-            background-image: url(../Imagenes/LogosTeams/lakers.png);
-            border: #fdb927 solid 10px ;
-            border-top:  #552583 10px solid;
-            border-left: #552583 solid 10px;
-            border-radius: 10px;
-            background-color: #552583;
-        }
-        #Jordan {
-            margin: 40px;
-            background-image: url(../Imagenes/LogosTeams/Bulls.png);
-            border: #c21141 solid 10px ;
-            border-top:  black 10px solid;
-            border-left: black solid 10px;
-            border-radius: 10px;
-            background-color: black ;
-        }
-
-        #Kobe {
-            margin: 40px;
-            background-image: url(../Imagenes/LogosTeams/lakers.png);
-            border: #fdb927 solid 10px ;
-            border-top:  #552583 10px solid;
-            border-left: #552583 solid 10px;
-            border-radius: 10px;
-            background-color: #552583;
-        }
-        #Kareem {
-            margin: 40px;
-            background-image: url(../Imagenes/LogosTeams/lakers.png);
-            border: #fdb927 solid 10px ;
-            border-top:  #552583 10px solid;
-            border-left: #552583 solid 10px;
-            border-radius: 10px;
-            background-color: #552583;
-        }
-        
-        #Gasol {
-            margin: 40px;
-            background-image: url(../Imagenes/LogosTeams/lakers.png);
-            border: #fdb927 solid 10px ;
-            border-top:  #552583 10px solid;
-            border-left: #552583 solid 10px;
-            border-radius: 10px;
-            background-color: #552583;
-        }
-
-        .TipoPlayer {
-            color: white;
-            background-color: rgb(201, 8, 42);
-            height: auto;
-            width: 200px;
-            text-align: center;
-            font-size: 40px;
-            border: 10px solid rgb(8, 8, 59);
-        }
     </style>
     <body>
-        </header>
+        <header>
             <ul>
                 <li><a class="logo" href="../index.html"><img width="45" height="45" src="../Imagenes/MichaelLogoNBA2.png"></a></li>
                 <li><a class="nav" href="../index.html">Home</a></li>
-                <li><a class="nav" href="../Paginas/Teams.html">Teams</a></li>
                 <li><a class="active" href="../Paginas/Players.html">Players</a></li>
-                <li><a class="nav" href="../Paginas/Stats.html">Stats</a></li>
+                <li><a class="nav" href="../Paginas/Team.html">Teams</a></li>
                 <li><a class="nav" href="../Paginas/History.html">History</a></li>
                 <li><a class="nav" href="../Paginas/Awards.html">Awards</a></li>
             </ul>
@@ -116,17 +25,17 @@
         <div class="red"><strong>Pagina no oficial de la NBA</strong></div>
         <div class="TipoPlayer"><strong>Actuales</strong></div>
         <div>
-            <img class="Players" id="KD" src="../Imagenes/ImagenesPlayers/KD.png"> 
-            <img class="Players" id="Giannis" src="../Imagenes/ImagenesPlayers/Giannis.png">
-            <img class="Players" id="Curry" src="../Imagenes/ImagenesPlayers/Curry.png">
-            <img class="Players" id="Lebron" src="../Imagenes/ImagenesPlayers/Lebron.png">
+            <a href="../Paginas/Players/KevinDurant.html"><img class="Players" id="KD" src="../Imagenes/ImagenesPlayers/KD.png"></a> 
+            <a href="../Paginas/Players/Giannis.html"><img class="Players" id="Giannis" src="../Imagenes/ImagenesPlayers/Giannis.png"></a>
+            <a href="../Paginas/Players/Curry.html"><img class="Players" id="Curry" src="../Imagenes/ImagenesPlayers/Curry.png"></a>
+            <a href="../Paginas/Players/Lebron.html"><img class="Players" id="Lebron" src="../Imagenes/ImagenesPlayers/Lebron.png"></a>
         </div>
         <div class="TipoPlayer"><strong>Retirados</strong></div>
         <div>
-            <img class="Players" id="Jordan" src="../Imagenes/ImagenesPlayers/Jordan.png">
-            <img class="Players" id="Kobe" src="../Imagenes/ImagenesPlayers/Kobe.png">
-            <img class="Players" id="Kareem" src="../Imagenes/ImagenesPlayers/abdul_jabbar.png">
-            <img class="Players" id="Gasol" src="../Imagenes/ImagenesPlayers/Gasol.png">
+            <a href="../Paginas/Players/Jordan.html"><img class="Players" id="Jordan" src="../Imagenes/ImagenesPlayers/Jordan.png"></a>
+            <a href="../Paginas/Players/KobeBryant.html"><img class="Players" id="Kobe" src="../Imagenes/ImagenesPlayers/Kobe.png"></a>
+            <a href="../Paginas/Players/Kareem.html"><img class="Players" id="Kareem" src="../Imagenes/ImagenesPlayers/abdul_jabbar.png"></a>
+            <a href="../Paginas/Players/Gasol.html"><img class="Players" id="Gasol" src="../Imagenes/ImagenesPlayers/Gasol.png"></a>
         </div>
 
 

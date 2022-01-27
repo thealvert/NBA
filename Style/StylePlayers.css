@@ -48,3 +48,95 @@ li a:hover {
 body {
     background-color: rgb(8, 8, 59);
 }
+.Players {
+    width: 300px;
+    height: 219px;
+}
+
+#KD {
+    margin: 40px;
+    background-image: url("../Imagenes/LogosTeams/Nets.png");
+    border: solid 10px white;
+    border-top: black 10px solid;
+    border-left: black solid 10px;
+    border-radius: 10px;
+    background-color: black;
+}
+
+#Giannis {
+    margin: 40px;
+    background-image: url(../Imagenes/LogosTeams/bucks.png);
+    border: #EEE1C6 solid 10px ;
+    border-top: #00471B  10px solid;
+    border-left:  #00471B solid 10px;
+    border-radius: 10px;
+    background-color: #00471B;
+}
+
+#Curry {
+    margin: 40px;
+    background-image: url(../Imagenes/LogosTeams/warriors.png);
+    border: #1D428A solid 10px ;
+    border-top:  #FFC72C 10px solid;
+    border-left: #FFC72C solid 10px;
+    border-radius: 10px;
+    background-color: #FFC72C;
+}
+
+#Lebron {
+    margin: 40px;
+    background-image: url(../Imagenes/LogosTeams/lakers.png);
+    border: #fdb927 solid 10px ;
+    border-top:  #552583 10px solid;
+    border-left: #552583 solid 10px;
+    border-radius: 10px;
+    background-color: #552583;
+}
+#Jordan {
+    margin: 40px;
+    background-image: url(../Imagenes/LogosTeams/Bulls.png);
+    border: #c21141 solid 10px ;
+    border-top:  black 10px solid;
+    border-left: black solid 10px;
+    border-radius: 10px;
+    background-color: black ;
+}
+
+#Kobe {
+    margin: 40px;
+    background-image: url(../Imagenes/LogosTeams/lakers.png);
+    border: #fdb927 solid 10px ;
+    border-top:  #552583 10px solid;
+    border-left: #552583 solid 10px;
+    border-radius: 10px;
+    background-color: #552583;
+}
+#Kareem {
+    margin: 40px;
+    background-image: url(../Imagenes/LogosTeams/lakers.png);
+    border: #fdb927 solid 10px ;
+    border-top:  #552583 10px solid;
+    border-left: #552583 solid 10px;
+    border-radius: 10px;
+    background-color: #552583;
+}
+
+#Gasol {
+    margin: 40px;
+    background-image: url(../Imagenes/LogosTeams/lakers.png);
+    border: #fdb927 solid 10px ;
+    border-top:  #552583 10px solid;
+    border-left: #552583 solid 10px;
+    border-radius: 10px;
+    background-color: #552583;
+}
+
+.TipoPlayer {
+    color: white;
+    background-color: rgb(201, 8, 42);
+    height: auto;
+    width: 200px;
+    text-align: center;
+    font-size: 40px;
+    border: 10px solid rgb(8, 8, 59);
+}
