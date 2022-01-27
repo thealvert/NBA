@@ -39,9 +39,12 @@ li a:hover {
 .nav {
     margin-top: 10px;
 }
-div{
+.red {
     background-color: rgb(201, 8, 42);
     color: white;
     text-align: center;
     padding: 10px;
+}
+body {
+    background-color: rgb(8, 8, 59);
 }
