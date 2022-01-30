@@ -48,3 +48,33 @@ li a:hover {
 body {
     background-color: rgb(8, 8, 59);
 }
+.TipoPremio {
+    background-color: rgb(201, 8, 42);
+    color: white;
+    font-size: 40px;
+    margin: 10px;
+    width: auto;
+    padding: 5px;
+    font-weight: bold;
+}
+h1 {
+    background-color: rgb(241, 180, 191);
+    color: rgb(255, 255, 255);
+    width: auto;
+    padding: 5px;
+    text-align: center;
+}
+p {
+    color: white;
+    margin-left: 510px;
+    font-weight: bold;
+    
+}
+.Premios {
+    max-width: 100%;
+    width: 600px;
+    height: 337px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
