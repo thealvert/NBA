@@ -48,3 +48,37 @@ li a:hover {
 body {
     background-color: rgb(8, 8, 59);
 }
+
+p, h1, h2 {
+    color: white;
+}
+
+P { 
+    margin-left: 190px;
+    margin-right: 190px;
+    font-weight: bold;
+    background-color: white;
+    color: black;
+    border: solid 5px rgb(97, 129, 233) ;
+    font-size: 20px;
+}
+table, th, td {
+    background-color: white;
+    border: black 2px solid;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 10px;
+}
+table {
+    width: 100%;
+}
+h1 {
+    background-color: rgb(201, 8, 42);
+    padding: 5px;
+}
+h2 {
+    background-color: rgb(230, 113, 134);
+    padding: 5px;
+    text-align: center;
+}
+ 
