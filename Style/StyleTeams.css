@@ -3,26 +3,31 @@ ul {
     margin: 0;
     overflow: hidden;
     background-color: rgb(8, 8, 59);
-    position: -webkit-sticky; /* Safari */
+    position: -webkit-sticky;
+    /* Safari */
     position: sticky;
     top: 0;
 }
+
 li {
     float: left;
     border-right: 1px solid rgb(8, 8, 59);
 }
+
 li a {
-    display:  block;
+    display: block;
     color: rgb(129, 129, 129);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 20px;
 }
+
 li a:hover {
     color: white;
 }
-.active{
+
+.active {
     color: rgb(218, 218, 202);
     margin-top: 10px;
 }
@@ -30,15 +35,18 @@ li a:hover {
 .logo:hover {
     background-color: rgb(8, 8, 59);
 }
+
 .logo {
     border-radius: 7px;
     padding-right: 40px;
     padding-bottom: 10px;
 }
+
 .nav {
     margin-top: 10px;
 }
-.red{
+
+.red {
     background-color: #c9082a;
     color: white;
     text-align: center;
@@ -48,6 +56,7 @@ li a:hover {
 body {
     background-color: rgb(8, 8, 59);
 }
+
 .Division {
     color: white;
     background-color: rgb(201, 8, 42);
@@ -57,6 +66,7 @@ body {
     font-size: 40px;
     border: 10px solid rgb(8, 8, 59);
 }
+
 .Division {
     color: white;
     background-color: rgb(201, 8, 42);
@@ -66,6 +76,7 @@ body {
     font-size: 40px;
     border: 10px solid rgb(8, 8, 59);
 }
+
 .Logo {
     height: 200px;
     width: 200px;
@@ -73,122 +84,152 @@ body {
     border: solid 10px;
     border-radius: 10px;
 }
+
 #Celtics {
     border: solid 10px #007a33;
     background-color: white;
 }
+
 #Nets {
     border: solid 10px black;
     background-color: white;
 }
+
 #Knicks {
     border: solid 10px #006bb6;
     background-color: #f58426;
 }
+
 #sixers {
     border: solid 10px #006bb6;
     background-color: white;
 }
+
 #Raptors {
     border: solid 10px #ce1141;
     background-color: black;
 }
+
 #Bulls {
     border: solid 10px #ce1141;
     background-color: black;
 }
+
 #Bucks {
     border: solid 10px #eee1c6;
     background-color: #00471b;
 }
+
 #Cavs {
     border: solid 10px #fdbb30;
     background-color: #860038;
 }
+
 #Pistons {
     border: solid 10px #1d42ba;
     background-color: #c8102e;
 }
+
 #Pacers {
     border: solid 10px #002d62;
     background-color: #fdbb30;
 }
+
 #Hawks {
     border: solid 10px #e03a3e;
     background-color: white;
 }
+
 #Hornets {
     border: solid 10px #00788c;
-    background-color:#1d1160 ;
+    background-color: #1d1160;
 }
+
 #Heat {
     border: solid 10px #98002e;
     background-color: black;
 }
+
 #Magic {
     border: solid 10px #c4ced4;
     background-color: #0077c0;
 }
+
 #Whasington {
     border: solid 10px #002b5c;
     background-color: #e31837;
 }
+
 #Nuggets {
     border: solid 10px #fec524;
     background-color: #0e2240;
 }
+
 #Timberwolves {
     border: solid 10px #9ea2a2;
     background-color: #0c2340;
 }
-#Thunder{
+
+#Thunder {
     border: solid 10px #007ac1;
     background-color: #ef3b24;
 }
+
 #Portland {
     border: solid 10px black;
-    background-color: #e03a3e;    
+    background-color: #e03a3e;
 }
+
 #Utah {
     border: solid 10px #002b5c;
     background-color: black;
 }
+
 #Warriors {
     background-color: #ffc72c;
     border: solid 10px #1d428a;
 }
+
 #Clippers {
     border: solid 10px #c8102e;
     background-color: #1d428a;
 }
+
 #Lakers {
     border: solid 10px #552583;
     background-color: #fdb927;
 }
+
 #Suns {
     border: solid 10px #1d1160;
     background-color: #e56020;
 }
+
 #Sacramento {
     border: solid 10px #552583;
     background-color: #63727a;
 }
+
 #Dallas {
     border: solid 10px #b8c4ca;
     background-color: #002b5e;
 }
+
 #Rockets {
     border: solid 10px #ce1141;
     background-color: white;
 }
+
 #Grizzlies {
     border: solid 10px #12173f;
-    background-color:  #5d76a9;
+    background-color: #5d76a9;
 }
+
 #Pelicans {
     border: solid 10px #0c2340;
     background-color: #c8102e;
 }
+
 #Spurs {
     border: solid 10px #000000;
     background-color: #c4ced4;

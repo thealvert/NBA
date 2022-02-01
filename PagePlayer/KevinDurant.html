@@ -10,7 +10,8 @@
             margin: 40px;
             width: 300px;
             height: 219px;
-            background-image: url(../Imagenes/LogosTeams/Nets.png);
+            border: white 5px solid;
+            border-radius: 35px;
         }
         
         body {
@@ -20,7 +21,7 @@
         
         .Player {
             border: white solid 10px;
-            border-radius: 5px;
+            border-radius: 35px;
             background-color: black;
             width: fit-content;
             margin-left: auto;
@@ -39,7 +40,8 @@
         
         .StatsName {
             float: right;
-            margin-right: 200px;
+            margin: 50px;
+            padding: 15px;
         }
         
         td {
@@ -47,22 +49,82 @@
             border: white 1px solid;
             color: white;
             padding: 8px;
-            font-size: 10px;
+            font-size: 15px;
+        }
+        
+        .PersonalInfo {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        .Stats {}
+        
+        .LogoTeam {
+            background-color: white;
+            margin-bottom: 10px;
+            margin-top: 10px;
+        }
+        
+        .Teams {
+            height: 200px;
+            width: 200px;
+            margin: 10px;
+            border-radius: 40px;
+            margin-left: 75px;
+            margin-right: 75px;
+        }
+        
+        #Nets {
+            border: 10px rgb(0, 0, 0) solid;
+            background-color: rgb(255, 255, 255);
+            margin-left: 200px;
+        }
+        
+        #Warriors {
+            background-color: #ffc72c;
+            border: solid 10px #1d428a;
+        }
+        
+        #Thunder {
+            border: solid 10px #007ac1;
+            background-color: #ef3b24;
+        }
+        
+        #Sonic {
+            border: solid 10px rgb(0, 101, 58);
+            background-color: rgb(255, 194, 32);
+            margin-right: 200px;
+        }
+        
+        .Awards {
+            color: rgb(255, 255, 255);
+            background-color: black;
+            list-style-type: circle;
+            text-align: center;
+        }
+        
+        div.Awards {
+            width: 800px;
+            height: auto;
+            font-size: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 15px;
         }
     </style>
 </head>
 
 <body>
     <header>
-        <ul>
-            <li>
+        <ul class="">
+            <li class="page">
                 <a class="logo" href="../index.html"><img width="45" height="45" src="../Imagenes/MichaelLogoNBA2.png"></a>
             </li>
-            <li><a class="nav" href="../index.html">Home</a></li>
-            <li><a class="nav" href="../Paginas/Players.html">Players</a></li>
-            <li><a class="nav" href="../Paginas/Team.html">Teams</a></li>
-            <li><a class="nav" href="../Paginas/History.html">History</a></li>
-            <li><a class="nav" href="../Paginas/Awards.html">Awards</a></li>
+            <li class="page"><a class="nav" href="../index.html">Home</a></li>
+            <li class="page"><a class="nav" href="../Paginas/Players.html">Players</a></li>
+            <li class="page"><a class="nav" href="../Paginas/Team.html">Teams</a></li>
+            <li class="page"><a class="nav" href="../Paginas/History.html">History</a></li>
+            <li class="page"><a class="nav" href="../Paginas/Awards.html">Awards</a></li>
         </ul>
     </header>
     <div class="Player">
@@ -78,27 +140,66 @@
                 <th></th>
             </tr>
             <tr>
-                <th colspan="2">PPG<br>29.3</th>
-                <th colspan="2">RPG<br>7.4</th>
-                <th colspan="2">APG<br>5.8</th>
-                <th colspan="2">PIE<br>18.1</th>
+                <th>PPG<br>29.3</th>
+                <th>RPG<br>7.4</th>
+                <th>APG<br>5.8</th>
+                <th>PIE<br>18.1</th>
+            </tr>
+
+        </table>
+        <table class="PersonalInfo">
+            <tr>
+                <td colspan="2"><strong>Height</strong><br>6'10"(2.08m)</td>
+                <td colspan="2"><strong>Weight</strong><br>240lb (109kg)</td>
+                <td colspan="2"><strong>Country</strong><br>USA</td>
+                <td colspan="2"><strong>Last Attended</strong><br>Texas-Austin</td>
             </tr>
             <tr>
-                <td colspan="2">Height<br>6'10"(2.08m)</td>
-                <td colspan="2">Weight<br>240lb (109kg)</td>
-                <td colspan="2">Country<br>USA</td>
-                <td colspan="2">Last Attended<br>Texas-Austin</td>
-            </tr>
-            <tr>
-                <td colspan="2">Age<br>33</td>
-                <td colspan="2">Birthdate<br>September 29, 1988</td>
-                <td colspan="2">Draft<br>2007 R1 Pick2</td>
-                <td colspan="2">Experience<br>13 years</td>
+                <td colspan="2"><strong>Age</strong><br>33</td>
+                <td colspan="2"><strong>Birthdate</strong><br>September 29, 1988</td>
+                <td colspan="2"><strong>Draft</strong><br>2007 R1 Pick2</td>
+                <td colspan="2"><strong>Experience</strong><br>13 years</td>
             </tr>
         </table>
+    </div>
+    <div class="white"></div>
+    <div class="white">Honours and Awards</div>
+    <div class="Awards">
+        <ul class="Awards">
+            <li class="Awards">9 All-NBA</li>
+            <li class="Awards">1 All-Rookie Team</li>
+            <li class="Awards">2 NBA All-Star MVP</li>
+            <li class="Awards">2 NBA Finals MVP</li>
+            <li class="Awards">1 NBA MVP</li>
+            <li class="Awards">13 NBA Player of the Month</li>
+            <li class="Awards">26 NBA Player of the Week</li>
+            <li class="Awards">5 NBA Rookie of the Month</li>
+            <li class="Awards">1 NBA Rookie of yhe Year</li>
+            <li class="Awards">2 Olympic Gold Medals</li>
+        </ul>
+
+
+    </div>
+    <div class="white">Teams played</div>
+    <div class="LogoTeam">
+        <img class="Teams" id="Nets" src="../Imagenes/LogosTeams/Atlantic/Nets/Nets.png">
+        <img class="Teams" id="Warriors" src="../Imagenes/LogosTeams/Pacific/Warriors/Warriors.png">
+        <img class="Teams" id="Thunder" src="../Imagenes/LogosTeams/NorthWest/Thunder/Thunder.png">
+        <img class="Teams" id="Sonic" src="../Imagenes/LogosTeams/SuperSonics.png">
+
+    </div>
+    <div class="white">Stats</div>
+    <div>
+        <table class="Stats">
+            <tr>
+                <th></th>
+                <th></th>
 
 
 
+            </tr>
+
+        </table>
 
     </div>
 </body>

@@ -3,27 +3,31 @@ ul {
     margin: 0;
     overflow: hidden;
     background-color: rgb(8, 8, 59);
-    position: -webkit-sticky; /* Safari */
+    position: -webkit-sticky;
+    /* Safari */
     position: sticky;
     top: 0;
 }
+
 li {
     float: left;
     border-right: 1px solid rgb(8, 8, 59);
-
 }
+
 li a {
-    display:  block;
+    display: block;
     color: rgb(129, 129, 129);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 20px;
 }
+
 li a:hover {
     color: white;
 }
-.active{
+
+.active {
     color: rgb(218, 218, 202);
     margin-top: 10px;
 }
@@ -31,23 +35,28 @@ li a:hover {
 .logo:hover {
     background-color: rgb(8, 8, 59);
 }
+
 .logo {
     border-radius: 7px;
     padding-right: 40px;
     padding-bottom: 10px;
 }
+
 .nav {
     margin-top: 10px;
 }
+
 .red {
     background-color: rgb(201, 8, 42);
     color: white;
     text-align: center;
     padding: 10px;
 }
+
 body {
     background-color: rgb(8, 8, 59);
 }
+
 .Players {
     width: 300px;
     height: 219px;
@@ -66,9 +75,9 @@ body {
 #Giannis {
     margin: 40px;
     background-image: url(../Imagenes/LogosTeams/bucks.png);
-    border: #EEE1C6 solid 10px ;
-    border-top: #00471B  10px solid;
-    border-left:  #00471B solid 10px;
+    border: #EEE1C6 solid 10px;
+    border-top: #00471B 10px solid;
+    border-left: #00471B solid 10px;
     border-radius: 10px;
     background-color: #00471B;
 }
@@ -76,8 +85,8 @@ body {
 #Curry {
     margin: 40px;
     background-image: url(../Imagenes/LogosTeams/warriors.png);
-    border: #1D428A solid 10px ;
-    border-top:  #FFC72C 10px solid;
+    border: #1D428A solid 10px;
+    border-top: #FFC72C 10px solid;
     border-left: #FFC72C solid 10px;
     border-radius: 10px;
     background-color: #FFC72C;
@@ -86,36 +95,38 @@ body {
 #Lebron {
     margin: 40px;
     background-image: url(../Imagenes/LogosTeams/lakers.png);
-    border: #fdb927 solid 10px ;
-    border-top:  #552583 10px solid;
+    border: #fdb927 solid 10px;
+    border-top: #552583 10px solid;
     border-left: #552583 solid 10px;
     border-radius: 10px;
     background-color: #552583;
 }
+
 #Jordan {
     margin: 40px;
     background-image: url(../Imagenes/LogosTeams/Bulls.png);
-    border: #c21141 solid 10px ;
-    border-top:  black 10px solid;
+    border: #c21141 solid 10px;
+    border-top: black 10px solid;
     border-left: black solid 10px;
     border-radius: 10px;
-    background-color: black ;
+    background-color: black;
 }
 
 #Kobe {
     margin: 40px;
     background-image: url(../Imagenes/LogosTeams/lakers.png);
-    border: #fdb927 solid 10px ;
-    border-top:  #552583 10px solid;
+    border: #fdb927 solid 10px;
+    border-top: #552583 10px solid;
     border-left: #552583 solid 10px;
     border-radius: 10px;
     background-color: #552583;
 }
+
 #Kareem {
     margin: 40px;
     background-image: url(../Imagenes/LogosTeams/lakers.png);
-    border: #fdb927 solid 10px ;
-    border-top:  #552583 10px solid;
+    border: #fdb927 solid 10px;
+    border-top: #552583 10px solid;
     border-left: #552583 solid 10px;
     border-radius: 10px;
     background-color: #552583;
@@ -124,8 +135,8 @@ body {
 #Gasol {
     margin: 40px;
     background-image: url(../Imagenes/LogosTeams/lakers.png);
-    border: #fdb927 solid 10px ;
-    border-top:  #552583 10px solid;
+    border: #fdb927 solid 10px;
+    border-top: #552583 10px solid;
     border-left: #552583 solid 10px;
     border-radius: 10px;
     background-color: #552583;
