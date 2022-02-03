@@ -2,23 +2,23 @@ ul.page {
     list-style-type: none;
     margin: 0;
     overflow: hidden;
-    background-color: #00471b;
+    background-color: #00285e;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    border: #eee1c6 solid 5px;
+    border: #6189b9 solid 5px;
     margin-bottom: 10px;
     border-radius: 40px;
 }
 
 li.page {
     float: left;
-    border-right: 1px solid #00471b;
+    border-right: 1px solid #00285e;
 }
 
 li.page a {
     display: block;
-    color: #eee1c6;
+    color: #6189b9;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -35,7 +35,7 @@ li.page a:hover {
 }
 
 .logo:hover {
-    background-color: #00471b;
+    background-color: #00285e;
 }
 
 .logo {
@@ -49,8 +49,8 @@ li.page a:hover {
 }
 
 .white {
-    background-color: #eee1c6;
-    color: #00471b;
+    background-color: #6189b9;
+    color: #00285e;
     text-align: center;
     padding: 10px;
     margin-top: 10px;
@@ -58,25 +58,25 @@ li.page a:hover {
     font-weight: bold;
 }
 
-.Giannis {
+.Gasol {
     margin: 40px;
     width: 300px;
     height: 219px;
-    border: #eee1c6 5px solid;
+    border: #6189b9 5px solid;
     border-radius: 35px;
 }
 
 .Player {
-    border: #eee1c6 solid 10px;
+    border: #6189b9 solid 10px;
     border-radius: 35px;
-    background-color: #00471b;
+    background-color: #00285e;
     width: fit-content;
     margin-left: auto;
     margin-right: auto;
 }
 
 th {
-    color: #eee1c6;
+    color: white;
     text-align: left;
     font-weight: bold;
 }
@@ -93,7 +93,7 @@ th {
 
 td {
     text-align: center;
-    border: #eee1c6 1px solid;
+    border: #6189b9 1px solid;
     color: white;
     padding: 8px;
     font-size: 15px;
@@ -105,7 +105,7 @@ td {
 }
 
 .LogoTeam {
-    background-color: #eee1c6;
+    background-color: #6189b9;
     margin-bottom: 10px;
     margin-top: 10px;
 }
@@ -114,19 +114,21 @@ td {
     height: 200px;
     border-radius: 40px;
     margin: 10px;
+    margin-right: 200px;
+    margin-left: 400px;
+}
+
+#Grizzlies {
+    background-color: #6189b9;
+    border: solid 10px #00285e;
+    margin-left: auto;
+    margin-right: auto;
     display: block;
 }
 
-#Bucks {
-    background-color: #eee1c6;
-    border: solid 10px #00471b;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .Awards {
-    color: #eee1c6;
-    background-color: #00471b;
+    color: #6189b9;
+    background-color: #00285e;
     list-style-type: circle;
     text-align: center;
 }
@@ -138,13 +140,13 @@ div.Awards {
     margin-left: auto;
     margin-right: auto;
     margin-top: 15px;
-    border: 10px solid #eee1c6;
+    border: 10px solid #6189b9;
     border-radius: 37px;
 }
 
 .Stats {
-    background-color: #00471b;
-    border: #eee1c6 5px solid;
+    background-color: #00285e;
+    border: #6189b9 5px solid;
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto;

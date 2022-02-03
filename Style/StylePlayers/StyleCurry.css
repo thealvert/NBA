@@ -18,7 +18,7 @@ li.page {
 
 li.page a {
     display: block;
-    color: rgb(214, 213, 213);
+    color: #ffc72c;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -50,7 +50,7 @@ li.page a:hover {
 
 .white {
     background-color: #ffc72c;
-    color: rgb(0, 0, 0);
+    color: #1d428a;
     text-align: center;
     padding: 10px;
     margin-top: 10px;

@@ -18,7 +18,7 @@ li.page {
 
 li.page a {
     display: block;
-    color: rgb(214, 213, 213);
+    color: #fdb927;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -118,13 +118,6 @@ td {
     margin-left: 200px;
 }
 
-#Cavs {}
-
-#Heat {
-    background-color: ;
-    border: ;
-}
-
 #Lakers {
     background-color: #fdb927;
     border: solid 10px #552583;
@@ -156,4 +149,14 @@ div.Awards {
     margin-left: auto;
     margin-right: auto;
     max-width: 1000px;
+}
+
+#Cavs {
+    border: solid 10px #860038;
+    background-color: black;
+}
+
+#Heat {
+    border: solid 10px #98002e;
+    background-color: black;
 }

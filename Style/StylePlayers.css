@@ -132,14 +132,14 @@ body {
     background-color: #552583;
 }
 
-#Gasol {
+#Morant {
     margin: 40px;
-    background-image: url(../Imagenes/LogosTeams/lakers.png);
-    border: #fdb927 solid 10px;
-    border-top: #552583 10px solid;
-    border-left: #552583 solid 10px;
+    background-image: url(../Imagenes/LogosTeams/Grizzlie.png);
+    border: #00285e solid 10px;
+    border-top: #6189b9 10px solid;
+    border-left: #6189b9 solid 10px;
     border-radius: 10px;
-    background-color: #552583;
+    background-color: #6189b9;
 }
 
 .TipoPlayer {
